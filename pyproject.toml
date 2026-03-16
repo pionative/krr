@@ -8,6 +8,7 @@ readme = "README.md"
 packages = [{ include = "robusta_krr" }]
 requires-python = "==3.9"
 dependencies = [
+  "cachetools",
   "typer[all] ==0.7.0",
   "pydantic ==1.10.15",
   "kubernetes (>=26.1.0,<27.0.0)",
@@ -16,6 +17,7 @@ dependencies = [
   "alive-progress (>=3.1.2,<4.0.0)",
   "prometrix (>=0.1.17,<1.0.0)",
   "slack-sdk (>=3.21.3,<4.0.0)",
+  "pyright>=1.1.408",
 ]
 
 [project.scripts]
